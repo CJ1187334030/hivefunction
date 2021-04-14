@@ -15,7 +15,6 @@ import java.util.ArrayList;
 
 public class EventJsonUDTF extends GenericUDTF {
 
-
     //该方法中，我们将指定输出参数的名称参数类型：
     @Override
     public StructObjectInspector initialize(ObjectInspector[] argOIs) throws UDFArgumentException {
